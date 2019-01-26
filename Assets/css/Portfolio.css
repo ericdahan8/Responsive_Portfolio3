@@ -12,7 +12,7 @@
     font-size: 24;
     background-color: transparent;
     position: absolute;
-    margin-top: -15px;
+    margin-top: -25px;
     margin-right:-10px;
     margin-left:-10px;
     font-family: monospace;
@@ -81,4 +81,14 @@ text-align: center;
 
 margin: 40px;
 text-align: center;
+}
+
+@media only screen and (max-width: 640px) {
+
+li  {
+
+        font-size: xx-small;
+    
+
+}
 }
