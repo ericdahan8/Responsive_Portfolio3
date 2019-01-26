@@ -224,7 +224,6 @@ font-size: xx-small;
 
         .center {
          width: 20%;
-        
          margin-top: -30px;
         
      }
@@ -267,4 +266,17 @@ font-size: xx-small;
          margin-top: -40px;
         
      }
+    }
+
+    @media only screen and (max-width: 1170px){
+
+        .p1 {
+
+        font-size: medium;
+        width: 50%;
+        }
+
+        .center {
+         width: 30%;
+        }
     }
