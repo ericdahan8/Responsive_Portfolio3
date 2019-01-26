@@ -1,0 +1,84 @@
+#myheader {
+    padding: 8px;
+    margin: -10px;
+    font-size: 28px;
+    color: #eee;
+    text-align: center;
+    background-image: url(../images/index.jpg);
+
+  }
+
+  #menu {
+    font-size: 24;
+    background-color: transparent;
+    position: absolute;
+    margin-top: -15px;
+    margin-right:-10px;
+    margin-left:-10px;
+    font-family: monospace;
+    top: 45px;
+
+}
+
+li a:hover {
+    background: black;
+
+
+}
+
+  
+
+li {
+display: inline;
+font-size: 15px;
+
+
+
+}
+
+li a {
+    color:white ;
+    padding: 10px;
+    text-decoration: none;
+
+
+  
+}
+
+body {
+    background-image: url(../images/cdn.jpg);
+}
+
+h2 {
+
+color: white;
+}
+
+#portfoliocard1 {
+    border: solid;
+    padding:10px;
+    margin: 40px;
+    text-align: center;
+
+    }
+    
+#portfoliocard2 {
+    border: solid;
+
+margin: 40px;
+text-align: center;
+}
+
+#portfoliocard3 {
+    border: solid;
+
+margin: 40px;
+text-align: center;
+}
+
+#portfoliocard4 {
+    border: solid;
+
+margin: 40px;
+text-align: center;
+}
