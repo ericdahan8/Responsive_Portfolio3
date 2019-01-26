@@ -173,7 +173,7 @@ border-style: none;
 
      .center {
          width: 25%;
-         right: -20px;
+         
      }
   
          #kleinkwok {
@@ -220,15 +220,18 @@ font-size: xx-small;
      }
 
 
-        }
+        
 
         .center {
-         width: 20%;
+         width: 25%;
          margin-top: -30px;
+         right: 0px;
         
      }
+    
+    
            #kleinkwok {
-font-size: xx-small;
+            font-size: xx-small;
 
          }
 
@@ -247,10 +250,10 @@ font-size: xx-small;
 font-size: xx-small;
 
     }
-
+}
     
 
-    @media only screen and (max-width: 980px){
+    @media only screen and (max-width:980px){
         
              .p1 {
 
@@ -268,15 +271,23 @@ font-size: xx-small;
      }
     }
 
-    @media only screen and (max-width: 1170px){
 
-        .p1 {
+    @media only screen and (min-width:981px) 
+    and (max-width:1240px) {
 
-        font-size: medium;
-        width: 50%;
-        }
 
         .center {
-         width: 30%;
+    
+         width: 20%;
+        
+        
+     }
+
+     .p1 {
+
+        font-size: medium;
+        width: 60%;
+     
+
         }
     }
