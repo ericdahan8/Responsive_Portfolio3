@@ -1,94 +1,86 @@
 #myheader {
-    padding: 8px;
-    margin: -10px;
-    font-size: 28px;
-    color: #eee;
-    text-align: center;
-    background-image: url(../images/index.jpg);
+  padding: 8px;
+  margin: -10px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+  background-image: url(../images/index.jpg);
+}
 
-  }
-
-  #menu {
-    font-size: 24;
-    background-color: transparent;
-    position: absolute;
-    margin-top: -25px;
-    margin-right:-10px;
-    margin-left:-10px;
-    font-family: monospace;
-    top: 45px;
-
+#menu {
+  font-size: 24;
+  background-color: transparent;
+  position: absolute;
+  margin-top: -25px;
+  font-family: monospace;
+  top: 45px;
 }
 
 li a:hover {
-    background: black;
-
-
+  background: black;
 }
 
-  
-
 li {
-display: inline;
-font-size: 15px;
-
-
-
+  display: inline;
+  font-size: 15px;
 }
 
 li a {
-    color:white ;
-    padding: 10px;
-    text-decoration: none;
-
-
-  
+  color: white;
+  padding: 10px;
+  text-decoration: none;
 }
 
 body {
-    background-image: url(../images/cdn.jpg);
+  background-image: url(../images/cdn.jpg);
 }
 
 h2 {
-
-color: white;
+  color: white;
 }
 
 #portfoliocard1 {
-    border: solid;
-    padding:10px;
-    margin: 40px;
-    text-align: center;
+  border: solid;
+  padding: 10px;
+  margin: 40px;
+  text-align: center;
+}
 
-    }
-    
 #portfoliocard2 {
-    border: solid;
+  border: solid;
 
-margin: 40px;
-text-align: center;
+  margin: 40px;
+  text-align: center;
 }
 
 #portfoliocard3 {
-    border: solid;
+  border: solid;
 
-margin: 40px;
-text-align: center;
+  margin: 40px;
+  text-align: center;
 }
 
 #portfoliocard4 {
-    border: solid;
+  border: solid;
 
-margin: 40px;
-text-align: center;
+  margin: 40px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 640px) {
-
-li  {
-
-        font-size: xx-small;
-    
-
+  li {
+    font-size: xx-small;
+  }
 }
+
+@media only screen and (max-width: 768px) {
+  li {
+    font-size: xx-small;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  li {
+    font-size: small;
+  }
 }

@@ -1,99 +1,91 @@
 #myheader {
-    padding: 8px;
-    margin: -10px;
-    font-size: 28px;
-    color: #eee;
-    text-align: center;
-    background-image: url(../images/index.jpg);
-      
+  padding: 8px;
+  margin: -10px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+  background-image: url(../images/index.jpg);
 }
 
 h2 {
-    text-align: center;
-    size: 100px;
-    text-decoration: underline
-
+  text-align: center;
+  size: 100px;
+  text-decoration: underline;
 }
 
 h3 {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 #menu {
-    font-size: 24;
-    background-color:transparent;
+  font-size: 24;
+  background-color: transparent;
 
-    position: absolute;
+  position: absolute;
 
-    margin-top: -25px;
-    margin-right:-10px;
-    margin-left:-10px;
-    font-family: monospace;
-    top: 45px;
-
+  margin-top: -25px;
+  font-family: monospace;
+  top: 45px;
 }
 
 li a:hover {
-    background: black;
-
-
+  background: black;
 }
-  
 
 li {
-    display: inline;
-    font-size: 15px;
+  display: inline;
+  font-size: 15px;
 }
 
 li a {
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-    
-  
+  color: white;
+  padding: 10px;
+  text-decoration: none;
 }
-    
-    
-    body {
 
-        background-image: url(../images/cdn.jpg);
-    }
+body {
+  background-image: url(../images/cdn.jpg);
+}
 
 #info {
-color: white;
-text-align: center;
-
+  color: white;
+  text-align: center;
 }
 .form {
-    text-align: left;
+  text-align: left;
 }
 
-input, textarea {
-
-    width: 100%;
-    padding: 12px;
-    Border: Solid;
-    background-image: url(../images/index.jpg);
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-bottom: 16px;
-    color: white;
-    
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: Solid;
+  background-image: url(../images/index.jpg);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  color: white;
 }
 
-
-.container{
-color: white;
-    text-align: left;
-  
+.container {
+  color: white;
+  text-align: left;
 }
 
 @media only screen and (max-width: 640px) {
-
-li  {
-
-        font-size: xx-small;
-    
-
+  li {
+    font-size: xx-small;
+  }
 }
+
+@media only screen and (max-width: 768px) {
+  li {
+    font-size: xx-small;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  li {
+    font-size: small;
+  }
 }

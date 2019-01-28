@@ -1,293 +1,215 @@
 #myheader {
-    padding: 8px;
-    margin: -10px;
-    font-size: 28px;
-    color: #eee;
-    text-align: center;
-    background-image: url(../images/index.jpg);
-    
-    
+  padding: 8px;
+  margin: -10px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+  background-image: url(../images/index.jpg);
+}
+
+h2 {
+  color: white;
+  font-size: 25px;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  font-family: monospace;
+}
+
+#menu {
+  font-size: 24;
+  background-color: transparent;
+  position: absolute;
+  margin-top: -25px;
+  font-family: monospace;
+  top: 45px;
+}
+
+li a:hover {
+  background: black;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.p1 {
+  color: rgb(255, 255, 255);
+  text-align: left;
+  border-style: groove;
+  border-width: thick;
+  border-color: coral;
+  background-color: transparent;
+  font-size: 15px;
+  padding: 10px;
+  font-family: monospace;
+  display: table-cell;
+}
+body {
+  background-image: url(../images/cdn.jpg);
+}
+
+.center {
+  width: 25%;
+  border-style: groove;
+  border-radius: 50%;
+  border-width: thick;
+  border-color: coral;
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo2 {
+  align-content: center;
+}
+
+#kleinkwok {
+  color: white;
+  text-align: center;
+  border-style: none;
+  border-width: thin;
+  border-color: white;
+  background-color: transparent;
+  font-size: 10px;
+  padding: 10px;
+  font-family: fantasy;
+  position: relative;
+}
+#kleinkwok2 {
+  font-size: medium;
+  color: coral;
+  text-align: center;
+  margin-top: -20px;
+}
+
+#peterallen2 {
+  font-size: medium;
+  color: coral;
+  text-align: center;
+  margin-top: -20px;
+}
+#peterallen {
+  color: white;
+  text-align: center;
+  border-style: none;
+  border-width: thin;
+  border-color: white;
+  background-color: transparent;
+  font-size: 10px;
+  padding: 10px;
+  font-family: fantasy;
+  position: relative;
+}
+
+@media only screen and (max-width: 640px) {
+  #myheader {
+    width: 100%;
   }
 
   h2 {
-      Color:white;
-      font-size: 25px;
-      text-align: left;
-      margin-top: 15px;
-      margin-bottom: 15px;
-      margin-left: 10px;
-      font-family: monospace;
-
-      
+    font-size: medium;
+    width: 100%;
+    text-align: center;
   }
-
-  #menu {
-      font-size: 24;
-
-      background-color: transparent;
-  
-      position: absolute;
-   
-      margin-top: -25px;
-      margin-right:-10px;
-      margin-left:-10px;
-      font-family: monospace;
-      top: 45px;
-
-  }
-
-  li a:hover {
-      background: black;
-
-
-  }
-
   li {
-      display: inline;
-      font-size: 15px;
-  }
-/* All good here*/
-
-
-
-  li a {
-      color: white;
-      padding: 10px;
-      text-decoration: none;
-      
-   
-      
-      
-      
-    
+    font-size: xx-small;
   }
 
   .p1 {
-      color: rgb(255, 255, 255);
-      width: 800px;
-      text-align: left;
-      border-style: groove;
-      border-width: thick;
-      border-color: coral;
-     background-color: transparent;
-      font-size: 15px;
-      padding: 10px;
-      font-family: monospace;
-
-
-
+    font-size: medium;
   }
-  body {
-      background-image: url(../images/cdn.jpg);
-  }
- 
+
   .center {
-      display: block;
-      width: 25%;
-      border-style: groove;
-      border-radius: 50%;
-      border-width: thick;
-      border-color: coral;
-      position: absolute;
-      top: 150px;
-      right: 70px;
-      
-    
-  }
-
-  .logo2 {
-align-content: center;
-
+    width: 60%;
   }
 
   #kleinkwok {
-      color: white;
-      text-align: center;
-      border-style: none;
-      border-width: thin;
-      border-color: white;
-     background-color: transparent;
-      font-size: 10px;
-      padding: 10px;
-      font-family: fantasy;
-    
-
-
+    font-size: xx-small;
   }
+
+  #peterallen {
+    font-size: xx-small;
+  }
+
   #kleinkwok2 {
-      font-size:medium;
-      color: coral;
-      text-align: center;
-      margin-top: -20px;
+    font-size: xx-small;
   }
 
   #peterallen2 {
-    font-size:medium;
-    color: coral;
+    font-size: xx-small;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #myheader {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: x-large;
+    width: 100%;
     text-align: center;
-   margin-top: -20px;
-
-
   }
+
+  .p1 {
+    font-size: medium;
+  }
+
+  .center {
+    width: 40%;
+  }
+
+  #kleinkwok {
+    font-size: xx-small;
+  }
+
   #peterallen {
-color: white;
-text-align: center;
-border-style: none;
-      border-width: thin;
-      border-color: white;
-     background-color: transparent;
-      font-size: 10px;
-      padding: 10px;
-      margin-top: 50px;
-      font-family: fantasy;
-    
+    font-size: xx-small;
   }
 
-  @media only screen and (max-width: 640px){
-        #myheader {
-            
-            width: 100%;
-    
-        }
-    
-        h2 {
-            font-size: medium;
-            width: 100%;
-            text-align: left;
-    
-        }
-    li  {
+  #kleinkwok2 {
+    font-size: xx-small;
+  }
 
-        font-size: xx-small;
-       bottom: -200px;
-        width: 30%;
-    
-
-    }
-
-     .p1 {
-
-        font-size: xx-small;
-        width: 60%;
-     }
-
-     .center {
-         width: 25%;
-         
-     }
-  
-         #kleinkwok {
-font-size: xx-small;
-
-         }
-
-          #peterallen {
-              font-size: xx-small;
-          }
-        
-
-        #kleinkwok2 {
-
-            font-size: xx-small;
-        }
-    
-
-    #peterallen2 {
-font-size: xx-small;
-
-    }
+  #peterallen2 {
+    font-size: xx-small;
+  }
 }
 
-@media only screen and (max-width: 768px){
-        #myheader {
-            
-            width: 100%;
-    
-        }
-    
+@media only screen and (max-width: 980px) {
+  li {
+    font-size: small;
+  }
 
-    h2 {
-            font-size: x-large;
-            width: 100%;
-    
-        }
+  .p1 {
+    font-size: medium;
+    width: 50%;
+  }
 
-        .p1 {
+  .center {
+    width: 30%;
+  }
+  #kleinkwok {
+    font-size: small;
+  }
 
-        font-size: small;
-        width: 60%;
-        text-align: left
-     }
+  #peterallen {
+    font-size: small;
+  }
 
+  #kleinkwok2 {
+    font-size: small;
+  }
 
-        
-
-        .center {
-         width: 25%;
-         margin-top: -30px;
-         right: 0px;
-        
-     }
-    
-    
-           #kleinkwok {
-            font-size: xx-small;
-
-         }
-
-          #peterallen {
-              font-size: xx-small;
-          }
-        
-
-        #kleinkwok2 {
-
-            font-size: xx-small;
-        }
-    
-
-    #peterallen2 {
-font-size: xx-small;
-
-    }
+  #peterallen2 {
+    font-size: small;
+  }
 }
-    
-
-    @media only screen and (max-width:980px){
-        
-             .p1 {
-
-        font-size: xx-small;
-        width: 50%;
-     
-
-        }
-
-        .center {
-         width: 25%;
-         margin-right: 50px;
-         margin-top: -40px;
-        
-     }
-    }
-
-
-    @media only screen and (min-width:981px) 
-    and (max-width:1240px) {
-
-
-        .center {
-    
-         width: 20%;
-        
-        
-     }
-
-     .p1 {
-
-        font-size: medium;
-        width: 60%;
-     
-
-        }
-    }
