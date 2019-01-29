@@ -99,119 +99,6 @@ body {
   position: relative;
 }
 
-@media only screen and (max-width: 640px) {
-  #myheader {
-    width: 100%;
-  }
-
-  h2 {
-    font-size: medium;
-    width: 100%;
-    text-align: center;
-  }
-  li {
-    font-size: xx-small;
-  }
-
-  .p1 {
-    font-size: xx-small;
-  }
-
-  .flip-card-front {
-    width: 5%;
-  }
-
-  .flip-card-front,
-  .flip-card-back {
-    width: 5%;
-  }
-
-  .flip-card-inner {
-    width: 5%;
-  }
-
-  #kleinkwok {
-    font-size: xx-small;
-  }
-
-  #peterallen {
-    font-size: xx-small;
-  }
-
-  #kleinkwok2 {
-    font-size: xx-small;
-  }
-
-  #peterallen2 {
-    font-size: xx-small;
-  }
-}
-@media only screen and (max-width: 768px) {
-  #myheader {
-    width: 100%;
-  }
-
-  h2 {
-    font-size: x-large;
-    width: 100%;
-    text-align: center;
-  }
-
-  .p1 {
-    font-size: medium;
-  }
-
-  .center {
-    width: 40%;
-  }
-
-  #kleinkwok {
-    font-size: xx-small;
-  }
-
-  #peterallen {
-    font-size: xx-small;
-  }
-
-  #kleinkwok2 {
-    font-size: xx-small;
-  }
-
-  #peterallen2 {
-    font-size: xx-small;
-  }
-}
-
-@media only screen and (max-width: 980px) {
-  li {
-    font-size: small;
-  }
-
-  .p1 {
-    font-size: medium;
-    width: 50%;
-  }
-
-  .center {
-    width: 30%;
-  }
-  #kleinkwok {
-    font-size: small;
-  }
-
-  #peterallen {
-    font-size: small;
-  }
-
-  #kleinkwok2 {
-    font-size: small;
-  }
-
-  #peterallen2 {
-    font-size: small;
-  }
-}
-
 .flip-card {
   background-color: transparent;
   width: 300px;
@@ -249,6 +136,7 @@ body {
   backface-visibility: hidden;
   border: solid transparent;
   border-radius: 50%;
+  border-color: coral;
 }
 
 .flip-card-front {
@@ -262,4 +150,49 @@ body {
   color: white;
   transform: rotateY(180deg);
   z-index: 1;
+}
+
+@media only screen and (max-width: 640px) {
+  #myheader {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: medium;
+    width: 100%;
+    text-align: center;
+  }
+  li {
+    font-size: xx-small;
+  }
+
+  .p1 {
+    font-size: xx-small;
+    margin-top: 100px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #myheader {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: x-large;
+    width: 100%;
+    text-align: center;
+  }
+
+  .p1 {
+    font-size: medium;
+  }
+}
+@media only screen and (max-width: 980px) {
+  li {
+    font-size: small;
+  }
+
+  .p1 {
+    font-size: xx-small;
+    width: 50%;
+  }
 }
