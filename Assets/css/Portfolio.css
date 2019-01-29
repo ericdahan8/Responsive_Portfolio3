@@ -4,7 +4,7 @@
   font-size: 28px;
   color: #eee;
   text-align: center;
-  background-image: url(../images/index.jpg);
+  background-image: url(../images/ep_naturalblack.png);
 }
 
 #menu {
@@ -40,28 +40,28 @@ h2 {
 }
 
 #portfoliocard1 {
-  border: solid;
+  border: solid #ccff00;
   padding: 10px;
   margin: 40px;
   text-align: center;
 }
 
 #portfoliocard2 {
-  border: solid;
+  border: solid #ccff00;
 
   margin: 40px;
   text-align: center;
 }
 
 #portfoliocard3 {
-  border: solid;
+  border: solid #ccff00;
 
   margin: 40px;
   text-align: center;
 }
 
 #portfoliocard4 {
-  border: solid;
+  border: solid #ccff00;
 
   margin: 40px;
   text-align: center;

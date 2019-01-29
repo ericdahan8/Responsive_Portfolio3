@@ -4,7 +4,7 @@
   font-size: 28px;
   color: #eee;
   text-align: center;
-  background-image: url(../images/index.jpg);
+  background-image: url(../images/ep_naturalblack.png);
 }
 
 h2 {
@@ -60,7 +60,7 @@ textarea {
   width: 100%;
   padding: 12px;
   border: Solid;
-  background-image: url(../images/index.jpg);
+  background-image: url(../images/ep_naturalblack.png);
   border-radius: 4px;
   box-sizing: border-box;
   margin-bottom: 16px;

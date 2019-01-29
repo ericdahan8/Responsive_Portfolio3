@@ -4,7 +4,7 @@
   font-size: 28px;
   color: #eee;
   text-align: center;
-  background-image: url(../images/index.jpg);
+  background-image: url(../images/ep_naturalblack.png);
 }
 
 h2 {
@@ -45,7 +45,7 @@ li a {
   text-align: left;
   border-style: groove;
   border-width: thick;
-  border-color: coral;
+  border-color: #ccff00;
   background-color: transparent;
   font-size: 15px;
   padding: 10px;
@@ -75,14 +75,14 @@ body {
 }
 #kleinkwok2 {
   font-size: medium;
-  color: coral;
+  color: #ccff00;
   text-align: center;
   margin-top: -20px;
 }
 
 #peterallen2 {
   font-size: medium;
-  color: coral;
+  color: #ccff00;
   text-align: center;
   margin-top: -20px;
 }
@@ -136,7 +136,7 @@ body {
   backface-visibility: hidden;
   border: solid transparent;
   border-radius: 50%;
-  border-color: coral;
+  border-color: #ccff00;
 }
 
 .flip-card-front {
@@ -146,7 +146,7 @@ body {
 }
 
 .flip-card-back {
-  background-color: coral;
+  background-color: black;
   color: white;
   transform: rotateY(180deg);
   z-index: 1;
